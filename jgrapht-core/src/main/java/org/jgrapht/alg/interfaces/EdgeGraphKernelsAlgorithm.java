@@ -46,7 +46,9 @@ public interface EdgeGraphKernelsAlgorithm<V,E,L>
         
         double x = 0;
         int El1,El2;
+        
         Map<E,L> edgeLabels1 = new HashMap<E,L>();
+        
         Map<E,L> edgeLabels2 = new HashMap<E,L>();
        
         for(E e:g1.edgeSet()) {
@@ -54,8 +56,8 @@ public interface EdgeGraphKernelsAlgorithm<V,E,L>
         }
         
         for(E e:g2.edgeSet()) {
-            El2 =  (int) edgeLabels2.get(e);
-       }
+             El2 =  (int) edgeLabels2.get(e);
+        }
         
         return x;
     }
