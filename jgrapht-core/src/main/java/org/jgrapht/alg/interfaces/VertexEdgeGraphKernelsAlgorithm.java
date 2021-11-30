@@ -28,10 +28,10 @@ import org.jgrapht.util.*;
  *
  * @param <V> the graph vertex type
  * @param <E> the graph edge type
- * @param <L> the label of each edge-vertex
+ * @param <L> the label of each vertex-edge
  */
 
-public interface GraphKernelsAlgorithm<V, E, L>
+public interface VertexEdgeGraphKernelsAlgorithm<V, E, L>
 {
 
     default double kernel(Graph<V, E> g1, Map<V, L> labels1, Graph<V, E> g2, Map<V, L> labels2)
