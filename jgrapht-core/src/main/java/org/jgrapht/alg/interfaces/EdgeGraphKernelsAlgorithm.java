@@ -35,7 +35,7 @@ import org.jgrapht.util.*;
 public interface EdgeGraphKernelsAlgorithm<V,E,L>
 {
    
-    class Labels{
+   /* class Labels{
         
         
         
@@ -62,7 +62,7 @@ public interface EdgeGraphKernelsAlgorithm<V,E,L>
         return x;
     }
 
-    
+    */
     
     
     

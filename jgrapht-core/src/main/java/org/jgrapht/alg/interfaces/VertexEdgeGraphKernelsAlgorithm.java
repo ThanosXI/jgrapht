@@ -33,7 +33,7 @@ import org.jgrapht.util.*;
 
 public interface VertexEdgeGraphKernelsAlgorithm<V, E, L>
 {
-
+/*
     default double kernel(Graph<V, E> g1, Map<V, L> labels1, Graph<V, E> g2, Map<V, L> labels2)
     {
 
@@ -47,7 +47,7 @@ public interface VertexEdgeGraphKernelsAlgorithm<V, E, L>
          * 
          * 
          * } equals hashcode;
-         */
+         
 
         // Map<ThreeLables, Integer> Counters;
 
@@ -57,5 +57,6 @@ public interface VertexEdgeGraphKernelsAlgorithm<V, E, L>
         }
 
         return x;
-    }
+    } */
+
 }
